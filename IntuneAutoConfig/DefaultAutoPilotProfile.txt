@@ -1,0 +1,10 @@
+Run this using Microsoft Graph
+https://developer.microsoft.com/en-us/graph/graph-explorer
+
+:::REQUEST TO MAKE:::
+https://graph.microsoft.com/beta/deviceManagement/windowsAutopilotDeploymentProfiles
+
+TYPE: POST
+
+Request Body:
+{"@odata.type":"#microsoft.graph.azureADWindowsAutopilotDeploymentProfile","displayName":"DefaultAutoPilot","description":"","deviceNameTemplate":"SPL-%SERIAL%","language":"en-NZ","enableWhiteGlove":false,"deviceType":"windowsPc","extractHardwareHash":false,"roleScopeTagIds":[],"hybridAzureADJoinSkipConnectivityCheck":false,"outOfBoxExperienceSettings":{"deviceUsageType":"singleUser","hideEscapeLink":true,"hidePrivacySettings":true,"hideEULA":true,"userType":"standard","skipKeyboardSelectionPage":false}}
