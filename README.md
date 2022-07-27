@@ -9,6 +9,10 @@ Folders:
   - This is a collection of advanced hunting queries that you may find helpful. (Please note Advanced Hunting Requires Defender For EndPoint Plan 2)
   
 3. IntuneAutoConfig
+
+  - CreateGroups.ps1
+    - I like to create two groups when starting a Intune deployment, a standard Intune security group and a security group for testing purposes. This script will create both groups for you to use later on.
+
   - DefaultAutoPilotProfile.txt
     - This creates creates the auto pilot profile that can be used when you are using OOBE.
       Please note in this the language is set to "en-NZ" , please change this to whichever your preferred language is. The next thing is setting the device name. This is currently set to set the device name to "SPL-%SERIAL%". You can change this to however you would like your naming convention to be. 
